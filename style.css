@@ -1,0 +1,69 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Lato', sans-serif;
+}
+.fondo {
+    background-image: url(./img/pizza.jpg);
+    height: 625px;
+    background-repeat: no-repeat;
+
+}
+h1 {
+    font-size: 3rem;
+    width: 100%;
+    margin: 20px 10px;
+}
+ul {
+    list-style-type: none;
+}
+#contenedor {
+    background-color: white;
+    text-align: center;
+    left: 440px;
+    width: 400px;
+    border: solid black;
+    position: absolute;
+    top: 90px;
+    
+    
+    
+}
+#aceitunas {
+    background-color: saddlebrown;
+    height: 70px;
+    padding: 27px;
+    margin-top: 5px;
+    
+    flex-wrap: wrap;
+    
+
+}
+#cebolla {
+    background-color: orange;
+    height: 70px;
+    padding: 27px;
+    margin-top: 10px;
+    
+    flex-wrap: wrap;
+    
+}
+#albahaca {
+    background-color: saddlebrown;
+    height: 70px;
+    padding: 27px;
+    
+    flex-wrap: wrap;
+    margin-top: 10px;
+   
+   
+}
+#champiñones {
+    background-color: orange;
+    height: 70px;
+    padding: 27px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    
+}
